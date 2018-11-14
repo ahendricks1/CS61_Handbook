@@ -32,4 +32,4 @@ my_set.add(55)
 print(my_set)
 ```
 
-(c) 2018 YOUR NAME. All rights reserved.
+(c) 2018 AUSTIN HENDRICKS. All rights reserved.
