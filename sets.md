@@ -1,10 +1,10 @@
-# \[Sets]
+# Sets
 
-A \[set\] is \[a heterogenous, unordered and immutable list that does not allow duplicates and is identified with curly braces {}. \].
+A set is a heterogenous, unordered and immutable list that does not allow duplicates and is identified with curly braces {}.
 
 # In Memory
 
-In memory, a \[set\] looks like this:
+In memory, a set looks like this:
 
 \[sketch or diagram\]
 
@@ -12,16 +12,16 @@ In memory, a \[set\] looks like this:
 
 # Operations
 
-A \[set\] supports the following operations:
+A set supports the following operations:
 
-* add: Adds item to the set, O(1), since sets are implemented as hash functions you can directly access the end of list and add
-* remove: Removes item from the set, O(1), same with remove, you can directly access the piece of data you want to remove
+* .add(item): Adds item to the set, O(1), since sets are implemented as hash functions you can directly access the end of list and add
+* .remove(item): Removes item from the set, O(1), same with remove, you can directly access the piece of data you want to remove
 
 # Use Cases
 
-An \[set\] is useful \[you want a\] \[immutable list of unique items\].
+An set is useful if you want an immutable list of unique items.
 
-It is not as good as \[a dictionary] \[if you're okay with duplicates within your structure, dictionaries using key-value pairs is an easier way to keep track of values\].
+It is not as good as a dictionary if you're okay with duplicates within your structure, dictionaries using key-value pairs is an easier way to keep track of values.
 
 # Example
 
