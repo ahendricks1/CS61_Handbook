@@ -6,11 +6,18 @@ This is a summary of the data structures I have mastered to this point. The impo
 
 # Data Structures
 
+## Misc
+ * Sets
+ * Tuples
+ * Dictionary
+ * Set
+
 ## Linear Data Structures
   * Stacks
   * Queues
   * Deques
-  * Lists
+  * Lists, Linked Lists
+  * Array
   
  ## Trees
   * Binary Search Trees
