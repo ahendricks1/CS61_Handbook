@@ -35,4 +35,4 @@ my_tuple.pop()
 print(my_tuple)
 ```
 
-(c) 2018 YOUR NAME. All rights reserved.
+(c) 2018 AUSTIN HENDRICKS. All rights reserved.
