@@ -8,7 +8,7 @@ This is a summary of the data structures I have mastered to this point. The impo
 
 ## Misc
  * [Sets](sets.md)
- * Tuples
+ * [Tuples](tuple.md)
  * Dictionary
  * Set
 
