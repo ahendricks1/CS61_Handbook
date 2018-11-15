@@ -10,13 +10,12 @@ This is a summary of the data structures I have mastered to this point. The impo
  * [Sets](sets.md)
  * [Tuples](tuple.md)
  * [Dictionary](dictionary.md)
- * Set
 
 ## Linear Data Structures
   * Stacks
   * Queues
   * Deques
-  * Lists, Linked Lists
+  * Linked Lists
   * Array
   
  ## Trees
