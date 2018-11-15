@@ -21,7 +21,7 @@ A set supports the following operations:
 
 A set is useful if you want an immutable list of unique items.
 
-It is not as good as a dictionary if you're okay with duplicates within your structure, dictionaries using key-value pairs is an easier way to keep track of values.
+It is not as good as a dictionary if you want to maintain duplicates, but access them at different times depending on the situation. With the key:value pairs, you can assign specific keys to the same value to receive the data during a specific time.
 
 # Example
 
