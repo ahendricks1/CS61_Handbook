@@ -14,12 +14,12 @@ In memory, a set looks like this:
 
 A set supports the following operations:
 
-* .add(item): Adds item to the set, O(1), since sets are implemented as hash functions you can directly access the end of list and add
-* .remove(item): Removes item from the set, O(1), same with remove, you can directly access the piece of data you want to remove
+* .add(item): Adds item to the set, O(1), since sets are implemented as hash functions you can directly access the end of list and add any item so long as it is not a duplicate.
+* .remove(item): Removes item from the set, O(1), same with add, you can directly access the piece of data you want removed from the set. If the item is not within the set, you will receive a KeyError message.
 
 # Use Cases
 
-An set is useful if you want an immutable list of unique items.
+A set is useful if you want an immutable list of unique items.
 
 It is not as good as a dictionary if you're okay with duplicates within your structure, dictionaries using key-value pairs is an easier way to keep track of values.
 
