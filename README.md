@@ -13,7 +13,7 @@ This is a summary of the data structures I have mastered to this point. The impo
 
 ## Linear Data Structures
   * [Stacks](stack.md)
-  * Queues
+  * [Queues](queue.md)
   * Deques
   * Linked Lists
   * Array
