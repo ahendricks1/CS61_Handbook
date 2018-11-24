@@ -26,9 +26,26 @@ It is not as good as list if you want to be able to access an item in constant t
 # Example
 
 ```
-sample code showing creation, and exercising all of the operations
-or
-a program that doesn't use the structure, and then a version that does
+'''
+Node
+'''
+class Node:
+    def __init__(self, initdata):
+        self.data = initdata
+        self.next = None
+        self.last = None
+
+    def get_data(self):
+        return self.data
+    
+    def get_next(self):
+        return self.next
+
+    def set_data(self, newdata):
+        self.data = newdata
+
+    def set_next(self, newnext):
+        self.next = newnext
 ```
 
 (c) 2018 AUSTIN HENDRICKS. All rights reserved.
