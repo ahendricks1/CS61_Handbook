@@ -1,6 +1,6 @@
 # Binary Search Tree
 
-A binary search tree is an unbalanced tree data structure that creates a key/value map.
+A binary search tree is an unbalanced tree data structure that creates a key/value map. BSTs start with a root node, and when new nodes are inserted they are compared against the root node, and sorted accordingly with nodes smaller than the root to the left, and larger to the right.
 
 # In Memory
 
