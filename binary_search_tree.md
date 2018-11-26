@@ -1,10 +1,10 @@
 # Binary Search Tree
 
-A binary search tree is an unbalanced tree data type that creates a map using keys with values in place.
+A binary search tree is an unbalanced tree data structure that creates a key/value map.
 
 # In Memory
 
-In memory, a \[widget\] looks like this:
+In memory, a binary search tree looks like this:
 
 \[sketch or diagram\]
 
