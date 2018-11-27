@@ -1,10 +1,10 @@
 # Tuples
 
-A tuple is a heterogeneous, ordered immutable list, identified in Python with parenthesis ().
+A tuple is a heterogeneous, ordered immutable collection of data, identified in Python with parenthesis ().
 
 # In Memory
 
-In memory, a set looks like this:
+In memory, a tuple looks like this:
 
 \[sketch or diagram\]
 
@@ -14,25 +14,22 @@ In memory, a set looks like this:
 
 A tuple supports the following operations:
 
-* Append: Adds item to the tuple, O(1), Since we know where the end of the list is in memory, we can use the index to get there in O(1) time.
-* Insert: inserts an item at the ith position, O(n), We must first find the ith position, and then shift all items after our inserted item to make room, making the complexity O(n).
-* Pop: Removes and returns the last item in the list. If you're looking for the ith item it's O(n), because you must traverse through the tuple till you reach the item, otherwise if you're popping the last item it's O(1)
+* Index: Traverses through tuple to see if a piece of data is present, if it is returns the index, O(1), When the tuple is instantiated as an immutable collection of data, it allocates enough room for the objects and nothing more, so we can index in constant time since we know the size.
+* Slicing: Slices a section of the tuple to a specified size, O(1), Much like indexing, since we already know the allocated size of the tuple, we have constant access to each element, we can slice the desired section in O(1) time.
 
 # Use Cases
 
-A tuple is useful if you want to create a list but with immutable items.
+A tuple is useful if you want to create a collection of data that will not be altered in any aspect for its existence.
 
-It is not as good as a list, because of its immutable items, unless you specifically want a sequence of data to remain unchangeable for its existence.
+It is not as good as a dictionary, because while you can still access a piece of data in constant time, you are unable to add or remove items if they ever become irrelevant.
 
 # Example
 
 ```
 my_tuple = (4.5, "dog", 4, False)
-print(my_tuple)
-my_tuple.append(55)
-print(my_tuple)
-my_tuple.pop()
-print(my_tuple)
+print(my_tuple[1])
+print(len(my_tuple))
+print(my_tuple[1:3])
 ```
 
 (c) 2018 AUSTIN HENDRICKS. All rights reserved.
