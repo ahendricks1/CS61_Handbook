@@ -6,7 +6,7 @@ A array is a ordered heterogenous collection of data, identified with an index. 
 
 In memory, an array looks like this:
 
-\[sketch or diagram\]
+![Image of an array in memory](images/array_memory.png)
 
 \[description of diagram\]
 
