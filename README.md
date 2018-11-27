@@ -11,17 +11,23 @@ This is a summary of the data structures I have mastered to this point. The impo
  * [Tuples](tuple.md)
  * [Dictionary](dictionary.md)
  * [Hash Tables](hash_table.md)
+ * [Queues](queue.md)
+ * [Deques](deque.md)
 
 ## Linear Data Structures
   * [Stacks](stack.md)
-  * [Queues](queue.md)
-  * [Deques](deque.md)
-  * [Linked Lists](linked_list.md)
+  * [Linked Lists / Doubly linked lists](linked_list.md)
   * [Array](array.md)
   
  ## Trees
   * [Binary Search Trees](binary_search_tree.md)
   * [AVL Trees (Balanced Binary Search Trees)](avl_trees.md)
+  * [Stacks](stack.md)
+  * [Queues](queue.md)
+  * [Deques](deque.md)
   * Binary Heaps
+  
+ ## Graphs
+  * Graph
 
 (c) AUSTIN HENDRICKS. All rights reserved.
