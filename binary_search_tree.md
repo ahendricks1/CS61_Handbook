@@ -26,26 +26,12 @@ It is not as good as an AVL tree because it is unable to consistently balance it
 # Example
 
 ```
-class Tree_node:
-  
-  def __init__(self, key, val, left = None, right = None, parent = None):
-    self.key = key
-    self.val = val
-    self.left_child = left
-    self.right_child = right
-    self.parent = parent
-    
-   def has_left_child(self):
-    return self.left_child
-    
-   def has_right_child(self):
-    return self.right_child
-    
-   def is_root(self):
-    return not self.parent
-    
-   def is_leaf(self):
-    return not (self.right_child or self.left_child)
+bst = BST(20)
+bst.insert(5)
+bst.insert(15)
+bst.insert(46)
+bst.remove(5)
+bst.is_leaf(46)
   
 ```
 
