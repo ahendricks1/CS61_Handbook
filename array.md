@@ -8,7 +8,7 @@ In memory, an array looks like this:
 
 ![Image of an array in memory](images/array_memory.png)
 
-\[description of diagram\]
+The array is contiguous in memory, with each value placed in order in the next available memory address.
 
 # Operations
 
