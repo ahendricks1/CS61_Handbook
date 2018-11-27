@@ -6,25 +6,25 @@ This is a summary of the data structures I have mastered to this point. The impo
 
 # Data Structures
 
-## Abstract Data Types
+## Hash Structures
  * [Sets](sets.md)
  * [Tuples](tuple.md)
  * [Dictionary](dictionary.md)
  * [Hash Tables](hash_table.md)
- * [Queues](queue.md)
- * [Deques](deque.md)
 
 ## Linear Data Structures
   * [Stacks](stack.md)
-  * [Linked Lists / Doubly linked lists](linked_list.md)
   * [Array](array.md)
+  * [Queues](queue.md)
+  * [Deques](deque.md)
   
+## Linked Lists
+  * [Linked Lists / Doubly linked lists](linked_list.md)
+
  ## Trees
   * [Binary Search Trees](binary_search_tree.md)
   * [AVL Trees (Balanced Binary Search Trees)](avl_trees.md)
   * [Stacks](stack.md)
-  * [Queues](queue.md)
-  * [Deques](deque.md)
   * [Binary Heaps](binary_heap.md)
   
  ## Graphs
