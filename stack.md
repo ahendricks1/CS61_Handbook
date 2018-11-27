@@ -14,8 +14,8 @@ In memory, a stack looks like this:
 
 A stack supports the following operations:
 
-* .push(item): Adds a new item to the top of the stack, O(1), with a stack being a linear structure, adding a new item is constant, much like stacking a plate of dishes.
-* .pop(item): Removes the top item from the stack, O(1), again with the LIFO ordering, removing an item is as simple as looking to the top of the stack for the item that will be removed.
+* Push: Adds a new item to the top of the stack, O(1), with a stack being a linear structure, adding a new item is constant, much like stacking a plate of dishes.
+* Pop: Removes the top item from the stack, O(1), again with the LIFO ordering, removing an item is as simple as looking to the top of the stack for the item that will be removed.
 
 # Use Cases
 
@@ -33,6 +33,7 @@ s.push(5.6)
 print(s)
 s.pop()
 print(s)
+s.peek()
 ```
 
 (c) 2018 AUSTIN HENDRICKS. All rights reserved.
