@@ -1,10 +1,10 @@
 # Dictionary
 
-A dictionary is a heterogeneous, unordered structure consisting of key:value pairs, identified in Python with curly braces {}.
+A dictionary is a heterogeneous, unordered structure consisting of unique key:value pairs, identified in Python with curly braces {}.
 
 # In Memory
 
-In memory, a set looks like this:
+In memory, a dictionary looks like this:
 
 \[sketch or diagram\]
 
