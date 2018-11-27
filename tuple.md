@@ -1,6 +1,6 @@
 # Tuples
 
-A tuple is a heterogeneous, ordered immutable list, identified with parenthesis ().
+A tuple is a heterogeneous, ordered immutable list, identified in Python with parenthesis ().
 
 # In Memory
 
@@ -14,9 +14,9 @@ In memory, a set looks like this:
 
 A tuple supports the following operations:
 
-* .append(item): Adds item to the tuple, O(1), since we know where the end of the list is, we can get there is a constant time
-* .insert(i, item): inserts an item at the ith position, O(n), we must first find the ith position, and then shift all items after our inserted item to make room
-* .pop()/.pop(i): Removes and returns the last item in the list, if you're looking for the ith item it's O(n) because you must traverse through the tuple till you reach the item, otherwise if you're popping the last item it's O(1)
+* Append: Adds item to the tuple, O(1), Since we know where the end of the list is in memory, we can use the index to get there in O(1) time.
+* Insert: inserts an item at the ith position, O(n), We must first find the ith position, and then shift all items after our inserted item to make room, making the complexity O(n).
+* Pop: Removes and returns the last item in the list. If you're looking for the ith item it's O(n), because you must traverse through the tuple till you reach the item, otherwise if you're popping the last item it's O(1)
 
 # Use Cases
 
