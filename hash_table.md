@@ -14,7 +14,7 @@ In memory, a hash table looks like this:
 
 A hash table supports the following operations:
 
-* Search: Searches through the hash table for a specific integer that corresponds to a specific item after it has gone through a hash function, O(n), When a hash maintains a perfect hash function, searching is capable in O(1) time, however with collisions it grows to O(n) because chaining occurs
+* Search: Searches through the hash table for a specific integer that corresponds to an item after it has gone through a hash function, O(n), When a hash maintains a perfect hash function, searching is capable in O(1) time, however with collisions it grows to O(n) because chaining occurs.
 * Insertion/Deletion: Inserts a new item that is put through a hash function, which then becomes an integer within the table/Searches through the table until it comes across the right integer, and if chaining/open addressing was necessary finds the correct item to delete, O(n), Since hash tables all depends on the proper hash function to sort items efficiently, with collisions occurring normally, the chance of complexity growing to O(n) is not uncommon.
 
 # Use Cases
