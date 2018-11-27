@@ -10,6 +10,7 @@ This is a summary of the data structures I have mastered to this point. The impo
  * [Sets](sets.md)
  * [Tuples](tuple.md)
  * [Dictionary](dictionary.md)
+ * [Hash Tables](hash_table.md)
 
 ## Linear Data Structures
   * [Stacks](stack.md)
