@@ -14,8 +14,8 @@ In memory, a set looks like this:
 
 A set supports the following operations:
 
-* Add: Adds item to the set, O(1), since sets are implemented as hash functions you can directly access the end of list and add a unique value (key).
-* Remove: Removes item from the set, O(1), same with add, you can directly access the piece of data you want removed from the set. If the item is not within the set, you will receive a KeyError message.
+* Add: Adds item to the set, O(1), Since sets are implemented as hash functions you can directly access the end of list and add a unique value (key).
+* Remove: Removes item from the set, O(1), Same with add, you can directly access the piece of data you want removed from the set. If the item is not within the set, you will receive a KeyError message because the unique key implemented from the hash function is not present.
 
 # Use Cases
 
