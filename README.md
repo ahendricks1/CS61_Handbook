@@ -6,7 +6,7 @@ This is a summary of the data structures I have mastered to this point. The impo
 
 # Data Structures
 
-## Misc
+## Abstract Data Types
  * [Sets](sets.md)
  * [Tuples](tuple.md)
  * [Dictionary](dictionary.md)
