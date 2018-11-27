@@ -25,7 +25,7 @@ This is a summary of the data structures I have mastered to this point. The impo
   * [Stacks](stack.md)
   * [Queues](queue.md)
   * [Deques](deque.md)
-  * Binary Heaps
+  * [Binary Heaps](binary_heap.md)
   
  ## Graphs
   * Graph
