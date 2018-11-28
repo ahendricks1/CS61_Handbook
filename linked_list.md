@@ -15,7 +15,7 @@ In memory, a linked list looks like this:
 A linked list supports the following operations:
 
 * Access/Search: Traverses through linked list till it reaches the value/Searches for the item in the list and returns a boolean, O(n), Since search starts at the head of the list, and linked lists are not contiguous in memory, therefore we may need to traverse through the whole list before reaching the requested element
-* Insertion/Deletion: Inserts a new node into the list/Removes a node from the list, O(1), Like the search function, to insert/delete at a specific index we must first traverse the list O(n) until we reach the index, but then inserting the node requires only constant time steps to maneuver the nodes around so we don't lose the tail. With deletion the same process of searching must be taken, and deletion requires the reverse steps as insertion to maintain the linked list but still occurs in O(1) time.
+* Insertion/Deletion: Inserts a new node into the list/Removes a node from the list, O(1), Like the search function, to insert/delete at a specific index we must first traverse the list O(n) until we reach the index, but then inserting the node requires only constant time steps to maneuver the nodes around so we don't lose the tail. First we set our new node equal to temp, then set that temp.next to the head of the linked list, and finally set the head equal to the temp. With deletion the same process of searching must be taken, and deletion requires the reverse steps as insertion to maintain the linked list but still occurs in O(1) time.
 
 # Use Cases
 
