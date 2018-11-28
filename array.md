@@ -38,4 +38,6 @@ a.remove("Cat")
 print(a)
 ```
 
+[Previous](stack.md) [Next](queue.md)
+
 (c) 2018 AUSTIN HENDRICKS. All rights reserved.
