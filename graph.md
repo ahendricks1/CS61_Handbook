@@ -31,4 +31,6 @@ or
 a program that doesn't use the structure, and then a version that does
 ```
 
-(c) 2018 YOUR NAME. All rights reserved.
+[Previous](binary_heap.md)
+
+(c) 2018 AUSTIN HENDRICKS. All rights reserved.
