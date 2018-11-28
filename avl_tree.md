@@ -31,7 +31,9 @@ avl.insert(5)
 avl.insert(15)
 avl.insert(20)
 avl.insert(17)
+# Rebalances tree after depth exceeds +1/-1
 avl.remove(5)
+# Rebalances after root node is deleted
 ```
 
 [Previous](binary_search_tree.md) [Next](binary_heap.md)
