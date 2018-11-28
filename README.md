@@ -28,6 +28,6 @@ This is a summary of the data structures I have mastered to this point. The impo
   * [Binary Heaps](binary_heap.md)
   
  ## Graphs
-  * Graph
+  * [Graph](graph.md)
 
 (c) AUSTIN HENDRICKS. All rights reserved.
