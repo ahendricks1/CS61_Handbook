@@ -26,24 +26,12 @@ It is not as good as a binary heap if you wish to be able to readjust the tree i
 # Example
 
 ```
-'''
-Rotation
-'''
-def rotate_left(self, rot_root):
-  new_root = rot_root.right_child
-  rot_root.right_child = new_root.left_child
-  if new_root.left_child != None:
-    new_rot.left_child.parent = rot_root
-  new_root.parent = rot_root.parent
-  if rot_root.is_root():
-    self.root = new_root
-  else:
-    if rot_root.is_left_child():
-      rot_root.parent.left_child = new_root
-    else:
-      rot_root.parent.right_child = new_root
-  new_root.left_child = rot_root
-  rot_root.parent = new_root
+avl = balanced_bst()
+avl.insert(5)
+avl.insert(15)
+avl.insert(20)
+avl.insert(17)
+avl.remove(5)
 ```
 
 [Previous](binary_search_tree.md) [Next](binary_heap.md)
