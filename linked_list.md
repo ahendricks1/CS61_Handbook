@@ -33,4 +33,6 @@ list.remove(1)
 list.search(1)
 ```
 
+[Previous](tuple.md) [Next](binary_search_tree.md)
+
 (c) 2018 AUSTIN HENDRICKS. All rights reserved.
