@@ -1,10 +1,10 @@
 # Deque
 
-A deque, also known as a, "double-ended queue" is an ordered collection of items much like a queue. The difference between the two is that a deque has no restriction on which end items are added.
+A deque, also known as a, "double-ended queue" is an ordered collection of items much like a queue. The difference between the two is that a deque has no restriction on which end items are added or removed.
 
 # In Memory
 
-In memory, a \[widget\] looks like this:
+In memory, a deque looks like this:
 
 \[sketch or diagram\]
 
@@ -14,10 +14,8 @@ In memory, a \[widget\] looks like this:
 
 A deque supports the following operations:
 
-* .addFront(item): adds a new item to the front of the deque, O(1), since a deque can act the same as a queue when appending a new item, we only need to know where the front of the list is to add a new item, thus giving us constant time.
-* .addRear(item): adds a new item to the rear of the deque, O(1), just like .addFront(), addRear() just needs to look at the last item in the deque, and append.
-* .removeFront(): removes the item at the front of the deque, O(1), the deque acts just like a queue in this scenario and can remove an item in constant time.
-* .removeRear(): removes the last item of the deque, O(1), with no restriction on the hybrid linear structure, the last item can be popped off in constant time.
+* Search: Traverses through the deque from the front or rear to return a boolean value, O(n), The deque must traverse through the deque, and since we don't know the exact location of the element, we are working with O(n) complexity much like a queue.
+* Access/Insertion/Deletion: Pops off each element until it reaches the desired element/Queues a new element to the deque from either front or rear depending on which is specified/Dequeues an element from the front or rear depending on which is specified, O(1), Accessing remains in constant time because we simply must dequeue elements until we reach the desired element in the deque. Inserting and deleting is simply queueing and dequeueing elements like you would on queue. Therefore, we are always in constant time, even in the worst case.
 
 # Use Cases
 
