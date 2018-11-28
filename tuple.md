@@ -32,4 +32,6 @@ print(len(my_tuple))
 print(my_tuple[1:3])
 ```
 
+[Previous](deque.md) [Next](linked_list.md)
+
 (c) 2018 AUSTIN HENDRICKS. All rights reserved.
