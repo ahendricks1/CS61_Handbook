@@ -4,7 +4,7 @@ A hash table takes in a key and then uses a hash function, a unique algorithm, t
 
 In memory, a hash table looks like this:
 
-\[sketch or diagram\]
+![Image of hash table](image/hash_table.jpg)
 
 \[description of diagram\]
 
