@@ -35,4 +35,6 @@ q.dequeue
 print(q)
 ```
 
+[Previous](array.md) [Next](deque.md)
+
 (c) 2018 AUSTIN HENDRICKS. All rights reserved.
