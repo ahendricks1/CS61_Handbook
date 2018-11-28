@@ -36,4 +36,6 @@ print(s)
 s.peek()
 ```
 
+[Previous](hash_table.md) [Next](array.md)
+
 (c) 2018 AUSTIN HENDRICKS. All rights reserved.
