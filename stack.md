@@ -6,7 +6,7 @@ A stack is an ordered collection of items where the addition and removal of item
 
 In memory, a stack looks like this:
 
-\[sketch or diagram\]
+![Image of a stack](images/stack.jpg)
 
 \[description of diagram\]
 
