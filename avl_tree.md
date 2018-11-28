@@ -46,6 +46,6 @@ def rotate_left(self, rot_root):
   rot_root.parent = new_root
 ```
 
-[Previous](binary_search_tree.md) [Next](stack.md)
+[Previous](binary_search_tree.md) [Next](binary_heap.md)
 
 (c) 2018 AUSTIN HENDRICKS. All rights reserved.
