@@ -14,9 +14,8 @@ In memory, a dictionary looks like this:
 
 A dictionary supports the following operations:
 
-* Get: Returns the value associated with they key, O(1), Since this structure is made up of key/value pairs, when given the key, we can return the value in constant time.
-* Pop: Removes an element if the correct key is given, O(1), Much like get(), pop() is able to make use of the key/value pairs and remove the selected element in O(1) because of the corresponding key.
-* Key: Returns the keys of the dictionary, O(1), Since keys() traverses each item one at a time, we are able to maintain a constant time of O(1).
+* Access/Search: Returns the value associated with they key/Returns a boolean value after indexing key, O(1), Since this structure is based around key:value pairs, we are able to access and/or search in constant time because we have use the key as an index value itself, thus we can access/search in constant time.
+* Insertion/Deletion: Inserts a new key:value pair as long as there are no duplicates elsewhere in the dictionary/Removes a key:value pair from the dictionary, O(1), Since dictionaries are unordered, there is no need to find a specific spot for the newest key:value pair as long as it is unique. If we know the key that corresponds to the value we want to remove, we simply index to that key and remove the value in O(1) time.
 
 # Use Cases
 
@@ -29,10 +28,9 @@ It is not as good as a list if you want to keep an ordered sequence of data, alt
 ```
 my_dict = {"Dog":"Bark", "Cat":"Meow", "Fish":"Blub"}
 print(my_dict)
-my_dict.pop()
-print(my_dict)
 my_dict["Giraffe"] = "Giraffe Noise"
 print(my_dict)
+print(my_dict["Giraffe"])
 ```
 
 (c) 2018 AUSTIN HENDRICKS. All rights reserved.
