@@ -1,6 +1,6 @@
 # Hash Table
 
-A hash table takes in a key and then uses a hash function, which is a unique algorithm to convert the key into an index, which then points at the original key which has now become a value.
+A hash table takes in a key and then uses a hash function, a unique algorithm, to convert the key into an index which then points at the the original key:value pair.
 
 In memory, a hash table looks like this:
 
@@ -17,16 +17,19 @@ A hash table supports the following operations:
 
 # Use Cases
 
-A hash table is useful when you wish to search for an item in O(1) time if you're able to maintain the best/average case. If collision is not an issue, all that is necessary is the correct hash value to find your item.
+A hash table is useful when you wish to search/insert/delete a key in O(1) time if you're able to create a perfect hash function. If collision is not an issue, all that is necessary is the correct index to find your value.
 
 It is not as good as an AVL tree if you wish to maintain constant big-o complexity at all times. With collisions being a common occurrence, hash tables can become slow very quickly.
 
 # Example
 
 ```
-sample code showing creation, and exercising all of the operations
-or
-a program that doesn't use the structure, and then a version that does
+h = hash_table()
+h[15] = "Dog"
+h[5] = "Cat"
+h[24] = "Giraffe"
+h.hash_function(15)
+h.hash_function(5)
 ```
 
 [Previous](dictionary.md) [Next](stack.md)
