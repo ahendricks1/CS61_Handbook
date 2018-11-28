@@ -6,7 +6,7 @@ A deque, also known as a, "double-ended queue" is an ordered collection of items
 
 In memory, a deque looks like this:
 
-\[sketch or diagram\]
+![Image of a deque](images/deque.jpg)
 
 \[description of diagram\]
 
