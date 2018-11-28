@@ -6,7 +6,7 @@ A queue is a linear, ordered collection of items that follow the FIFO (first-in 
 
 In memory, a queue looks like this:
 
-\[sketch or diagram\]
+![Image of a queue](images/queue.jpg)
 
 \[description of diagram\]
 
