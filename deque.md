@@ -8,8 +8,6 @@ In memory, a deque looks like this:
 
 ![Image of a deque](images/deque.jpg)
 
-\[description of diagram\]
-
 # Operations
 
 A deque supports the following operations:
