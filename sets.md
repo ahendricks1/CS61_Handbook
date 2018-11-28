@@ -32,6 +32,6 @@ my_set.add(55)
 print(my_set)
 ```
 
-[Next Page](dictionary.md)
+[Next](dictionary.md)
 
 (c) 2018 AUSTIN HENDRICKS. All rights reserved.
