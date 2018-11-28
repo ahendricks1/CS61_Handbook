@@ -34,6 +34,6 @@ bst.remove(5)
 bst.is_leaf(46)
 ```
 
-[Previous](linked_list.md) [Next](avl_trees.md)
+[Previous](linked_list.md) [Next](avl_tree.md)
 
 (c) 2018 AUSTIN HENDRICKS. All rights reserved.
