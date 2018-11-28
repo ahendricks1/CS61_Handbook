@@ -6,7 +6,7 @@ A linked list is an unordered list of elements with the first item being referre
 
 In memory, a linked list looks like this:
 
-\[sketch or diagram\]
+![Image of linked list](doubly_linked.jpg)
 
 \[description of diagram\]
 
