@@ -6,7 +6,7 @@ A set is a heterogenous, unordered and mutable collection of data that does not 
 
 In memory, a set looks like this:
 
-\[sketch or diagram\]
+![Image of a set](images/set.jpg)
 
 \[description of diagram\]
 
