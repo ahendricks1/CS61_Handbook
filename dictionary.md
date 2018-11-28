@@ -33,6 +33,6 @@ print(my_dict)
 print(my_dict["Giraffe"])
 ```
 
-[Previous Page](sets.md)    [Next Page](hash_table.md)
+[Previous](sets.md)    [Next](hash_table.md)
 
 (c) 2018 AUSTIN HENDRICKS. All rights reserved.
