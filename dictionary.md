@@ -6,7 +6,7 @@ A dictionary is a heterogeneous, unordered structure consisting of unique key:va
 
 In memory, a dictionary looks like this:
 
-\[sketch or diagram\]
+![Image of a dictionary](images/dictionary.jpg)
 
 \[description of diagram\]
 
