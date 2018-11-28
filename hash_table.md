@@ -1,8 +1,6 @@
 # Hash Table
 
-A hash table, much like a dictionary or BST, uses a map of key/value pairs to keep a collection so it may be searched in O(1) time (best/average case). It uses a unique algorithm, a hash function, to give an item a specific integer that is easily accessible.
-
-# In Memory
+A hash table takes in a key and then uses a hash function, which is a unique algorithm to convert the key into an index, which then points at the original key which has now become a value.
 
 In memory, a hash table looks like this:
 
@@ -14,8 +12,8 @@ In memory, a hash table looks like this:
 
 A hash table supports the following operations:
 
-* Search: Searches through the hash table for a specific integer that corresponds to an item after it has gone through a hash function, O(n), When a hash maintains a perfect hash function, searching is capable in O(1) time, however with collisions it grows to O(n) because chaining occurs.
-* Insertion/Deletion: Inserts a new item that is put through a hash function, which then becomes an integer within the table/Searches through the table until it comes across the right integer, and if chaining/open addressing was necessary finds the correct item to delete, O(n), Since hash tables all depends on the proper hash function to sort items efficiently, with collisions occurring normally, the chance of complexity growing to O(n) is not uncommon.
+* Search: Searches through the hash table for a specific index that corresponds to a value after it has gone through a hash function, O(n), When a hash maintains a perfect hash function, searching is capable in O(1) time, however with collisions it grows to O(n) because chaining can occur.
+* Insertion/Deletion: Inserts a new key that is put through a hash function, which then becomes a value within the table/Searches through the table until it comes across the right index, and if chaining/open addressing was necessary finds the correct value to delete, O(n), Since hash tables all depends on the proper hash function to sort keys efficiently, with collisions occurring normally, the chance of complexity growing to O(n) is not uncommon.
 
 # Use Cases
 
