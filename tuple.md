@@ -6,7 +6,7 @@ A tuple is a heterogeneous, ordered immutable collection of data, identified in 
 
 In memory, a tuple looks like this:
 
-\[sketch or diagram\]
+![Image of a tuple](images/tuple.jpg)
 
 \[description of diagram\]
 
