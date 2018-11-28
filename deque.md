@@ -38,4 +38,6 @@ d.removeFront()
 print(d)
 ```
 
+[Previous](queue.md) [Next](tuple.md)
+
 (c) 2018 AUSTIN HENDRICKS. All rights reserved.
