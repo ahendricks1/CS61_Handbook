@@ -35,4 +35,6 @@ bh.insert(1)
 print(bh)
 ```
 
+[Previous](avl_tree.md) [Next](graph.md)
+
 (c) 2018 AUSTIN HENDRICKS. All rights reserved.
