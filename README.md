@@ -8,7 +8,6 @@ This is a summary of the data structures I have mastered to this point. The impo
 
 ## Hash Structures
  * [Sets](sets.md)
- * [Tuples](tuple.md)
  * [Dictionary](dictionary.md)
  * [Hash Tables](hash_table.md)
 
@@ -17,6 +16,8 @@ This is a summary of the data structures I have mastered to this point. The impo
   * [Array](array.md)
   * [Queues](queue.md)
   * [Deques](deque.md)
+  * [Tuples](tuple.md)
+
   
 ## Linked Lists
   * [Linked Lists / Doubly linked lists](linked_list.md)
