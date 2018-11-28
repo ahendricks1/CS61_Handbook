@@ -4,7 +4,7 @@ A queue is a linear, ordered collection of items that follow the FIFO (first-in 
 
 # In Memory
 
-In memory, a \[widget\] looks like this:
+In memory, a queue looks like this:
 
 \[sketch or diagram\]
 
@@ -14,8 +14,8 @@ In memory, a \[widget\] looks like this:
 
 A queue supports the following operations:
 
-* .enqueue(item): adds a new item to the rear of the queue, O(1), since queues follow the FIFO rule, queueing is a constant complexity since it only needs to which item was added last to the queue.
-* .dequeue(): removes the front item from the queue, O(1), again following the FIFO rule, the queue only needs to look at the 'front' of the line to see which item will be removed, no need to search through the queue.
+* Access/Search: Returns a specific element in the queue by dequeuing until desired element is found/Traverses through the queue to return a boolean value, O(n), Since we cannot know how long the queue is, we must dequeue elements until we reach a specific element, and all other elements in the queue must shift, giving us a complexity of O(n).
+* Insertion/Deletion: Queues a new element to the rear of the queue/Dequeues the element at the front of the queue, O(1), Inserting or deleting from a queue is as simple as queuing a new element at the rear, or dequeuing the element at the front which is a constant.
 
 # Use Cases
 
