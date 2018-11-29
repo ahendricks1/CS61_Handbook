@@ -24,7 +24,7 @@ This is a summary of the data structures I have mastered to this point. The impo
 
  ## Trees
   * [Binary Search Trees](binary_search_tree.md)
-  * [AVL Trees (Balanced Binary Search Trees)](avl_trees.md)
+  * [AVL Trees (Balanced Binary Search Trees)](avl_tree.md)
   * [Binary Heaps](binary_heap.md)
   
  ## Graphs
