@@ -6,9 +6,7 @@ A binary search tree is an unbalanced tree data structure that creates a key/val
 
 In memory, a binary search tree looks like this:
 
-\[sketch or diagram\]
-
-\[description of diagram\]
+![Image of BST](binary_search_tree.jpg)
 
 # Operations
 
