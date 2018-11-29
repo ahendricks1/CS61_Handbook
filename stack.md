@@ -8,8 +8,6 @@ In memory, a stack looks like this:
 
 ![Image of a stack](images/stack.jpg)
 
-\[description of diagram\]
-
 # Operations
 
 A stack supports the following operations:
