@@ -2,14 +2,6 @@
 
 An AVL tree is a binary search tree, that self-balances with each new node inserted.
 
-# In Memory
-
-In memory, an AVL tree looks like this:
-
-\[sketch or diagram\]
-
-\[description of diagram\]
-
 # Operations
 
 An AVL tree supports the following operations:
