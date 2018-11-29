@@ -13,7 +13,7 @@ In memory, a queue looks like this:
 A queue supports the following operations:
 
 * Access/Search: Returns a specific element in the queue by dequeuing until desired element is found/Traverses through the queue to return a boolean value, O(n), Since we cannot know how long the queue is, we must dequeue elements until we reach a specific element, and all other elements in the queue must shift, giving us a complexity of O(n).
-* Insertion/Deletion: Queues a new element to the rear of the queue/Dequeues the element at the front of the queue, O(1), Inserting or deleting from a queue is as simple as enqueuing a new element at the rear, or dequeuing the element at the front which is a constant.
+* Insertion/Deletion: Enqueues a new element to the rear of the queue/Dequeues the element at the front of the queue, O(1), Inserting or deleting from a queue is as simple as enqueuing a new element at the rear, or dequeuing the element at the front which is a constant. You can compare the complexity of these operations to that of a stack pushing or popping an element.
 
 # Use Cases
 
