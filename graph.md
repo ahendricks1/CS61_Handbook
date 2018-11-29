@@ -6,9 +6,7 @@ A graph is a non-linear structure that consists of vertices (nodes) and edges or
 
 In memory, a graph looks like this:
 
-\[sketch or diagram\]
-
-\[description of diagram\]
+![Image of graph](images/graph.jpg)
 
 # Operations
 
@@ -21,7 +19,7 @@ A graph supports the following operations:
 
 A graph is useful when you wish to have the ability to traverse different paths to different vertices depending on the start and end point. Using an adjacency list allows us to take advantage of minimal cost paths for certain situations.
 
-It is not as good as an AVL tree if you wish to have access/search time of O(logn) whereas graphs are dependent on number of vertices and edges O(V+E).
+It is not as good as an AVL tree if you wish to have access/search time of O(logn) whereas graphs are dependent on number of vertices and edges O(|V|+|E|).
 
 # Example
 
