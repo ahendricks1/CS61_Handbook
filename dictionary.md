@@ -8,8 +8,6 @@ In memory, a dictionary looks like this:
 
 ![Image of a dictionary](images/dictionary.jpg)
 
-\[description of diagram\]
-
 # Operations
 
 A dictionary supports the following operations:
