@@ -24,7 +24,7 @@ It is not as good as an AVL tree if you wish to have access/search time of O(log
 # Example
 
 ```
-g = graph()
+# Adjacency List
 g.v0{v1:5, v3:4}
 g.v1{v2:4, v3:5}
 g.v2{v0:1}
