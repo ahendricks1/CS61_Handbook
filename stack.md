@@ -12,8 +12,9 @@ In memory, a stack looks like this:
 
 A stack supports the following operations:
 
-* Push: Adds a new item to the top of the stack, O(1), with a stack being a linear structure, adding a new item is constant, much like stacking a plate of dishes.
-* Pop: Removes the top item from the stack, O(1), again with the LIFO ordering, removing an item is as simple as looking to the top of the stack for the item that will be removed.
+* Push: Adds a new item to the top of the stack, O(1), With a stack being a linear structure, adding a new item is constant, much like stacking a plate of dishes.
+* Pop: Removes the top item from the stack, O(1), Again with the LIFO ordering, removing an item is as simple as looking to the top of the stack for the item that will be removed.
+* Peek: Returns the value on the top of the stack without removing it, O(1), Peek acts almost the same as pop in the sense that it follows all of the same steps besides removing the item from the stack, it is put back on the top of the stack once it is done being 'peeked' at, which results in O(1) time.
 
 # Use Cases
 
