@@ -24,9 +24,11 @@ It is not as good as an AVL tree if you wish to have access/search time of O(log
 # Example
 
 ```
-sample code showing creation, and exercising all of the operations
-or
-a program that doesn't use the structure, and then a version that does
+g = graph()
+g.v0{v1:5, v3:4}
+g.v1{v2:4, v3:5}
+g.v2{v0:1}
+g.v3{v1:4}
 ```
 
 [Previous](binary_heap.md)
