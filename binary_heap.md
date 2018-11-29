@@ -6,9 +6,7 @@ A binary heap is a common way to tackle the issue of creating a priority queue. 
 
 In memory, a binary heap looks like this:
 
-\[sketch or diagram\]
-
-\[description of diagram\]
+![Image of a binary heap](images/binary_heap.jpg)
 
 # Operations
 
