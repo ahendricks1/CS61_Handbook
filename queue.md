@@ -29,7 +29,7 @@ q.enqueue(4)
 q.enqueue("Dog")
 q.enqueue(3.5)
 print(q)
-q.dequeue
+q.dequeue()
 print(q)
 ```
 
