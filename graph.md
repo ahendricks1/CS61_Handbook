@@ -12,8 +12,7 @@ In memory, a graph looks like this:
 
 A graph supports the following operations:
 
-* Access/Search: description, Big O efficiency, and explain why / what that means
-* Insertion/Deletion: description, Big O efficiency, and explain why / what that means
+* Insertion/Deletion: Inserts a new vertex or edge onto the graph/Deletes a node or edge from the graph, O(1), Using an adjacency list as an example, we can add a new vertex in constant time, and map the available edges as well without any hassle. The adjacency matrix is another great example, although it requires more memory because it creates a matrix hence the name, and may end up with empty cells.
 
 # Use Cases
 
