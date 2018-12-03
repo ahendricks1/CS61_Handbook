@@ -12,7 +12,7 @@ In memory, a binary heap looks like this:
 
 A binary heap supports the following operations:
 
-* Insertion: Inserts a new element into the binary heap and percolates up if necessary, O(logn), The element is inserted to the bottom of the heap, and is then checked against it's parent, if it is smaller/larger depending on what kind of heap is being used, it percolates up. Since the act of swapping is O(1), heaps insertion complexity depends on the required levels that must be percolated up.
+* Insertion: Inserts a new element into the binary heap and percolates up if necessary, O(1), The element is inserted to the bottom of the heap, and is then checked against it's parent, if it is smaller/larger depending on what kind of heap is being used, it percolates up. Since the act of swapping is O(1), heaps insertion complexity depends on the required levels that must be percolated up.
 * Deletion: Removes an element from the heap and percolates down if necessary, O(logn), If the root is removed from the heap, the replacement comes from the last element of the last level. Therefore, if another element is larger/smaller depending on min/max heaps, it must be percolated.
 
 # Use Cases
