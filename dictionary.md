@@ -19,7 +19,7 @@ A dictionary supports the following operations:
 
 A dictionary can be useful if you want to create a large collection of data and have constant access time to a value using the unique key.
 
-It is not as good as a list if you want to keep an ordered sequence of data, although allows for constant time no matter the length.
+It is not as good as an array if you want to keep an ordered sequence of data, although allows for constant time no matter the length.
 
 # Example
 
