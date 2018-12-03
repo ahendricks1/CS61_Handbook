@@ -17,7 +17,7 @@ A binary heap supports the following operations:
 
 # Use Cases
 
-A binary heap is useful when you wish to maintain a priority queue of elements, using the weight of their value to correspond to their place in line, like a person with a broken thumb being lower priority than someone who has a broken arm. The ability to update the queue is a massive advantage if new nodes are being inserted regularly.
+A binary heap is useful when you wish to maintain a priority queue of elements, using the weight of their value to correspond to their place in line, like a person with a broken thumb being lower priority than someone who has a missing thumb. The ability to update the queue is a massive advantage if new nodes are being inserted regularly.
 
 It is not as good as a singly/doubly linked list if you wish to maintain a constant time for inserting or deleting elements after they've surpassed their use.
 
