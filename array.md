@@ -19,7 +19,7 @@ An array supports the following operations:
 
 # Use Cases
 
-An array is useful when you wish to keep a large collection of data and have O(1) access time.
+An array is useful when you wish to keep a large collection of ordered data and have O(1) access time.
 
 It is not as good as a stack if you wish to insert and/or delete elements in a more efficient time.
 
